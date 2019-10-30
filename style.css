@@ -1,0 +1,129 @@
+body {
+  background-image: url("images/island.jpg");
+  background-size: cover;
+}
+
+p {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.ma_guele{
+  height: 300px ;
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+.ma_guele:hover {
+  height: 600px ;
+  width: 600px;
+  border-radius: 300px;
+  background-color: gold;
+  box-shadow: 20px 20px 40px rgba(0,0,0,0.5);
+  transition: 0.1s
+}
+
+.my_test {
+  text-align: justify;
+}
+
+.secret_message {
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-size: 30px;
+}
+
+.my_card {
+  background-color: rgba(0,0,0,0);;
+  padding: 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.display_flex_fun {
+  display: flex;
+  justify-content: center;
+align-items: center;
+
+}
+
+.list_in_line li {
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+}
+
+.penney{
+  font-family: 'Henny Penny', cursive;
+}
+
+/*  background-color: rgb(125,125,125); */
+/*  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px; */
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.my_btn {
+  font-size: 50px;
+}
+
+.my_btn:hover {
+  background-color: gold;
+  border-color: black;
+}
+
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+@media (max-width: 960px) {
+  .display_flex_fun {
+    display: block;
+  }
+
+  /* For a screen < 960px, this CSS will be read */
+}
+
+
+
+/*
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+*/
+/*
+<video autoplay loop poster="polina.jpg" id="bgvid">
+  <source src="polina.webm" type="video/webm">
+  <source src="polina.mp4" type="video/mp4">
+</video>
+*/
